@@ -8,6 +8,7 @@
     <% astronaut.alpha_order.each do |mission| %>
     <li><%= mission.title %></li>
     <% end %>
+    <p>Total Trip Length: <%= astronaut.total_time %> months</p>
 <% end %>
 </ul>
-<p>Average Age: <%= @astronauts.average_age %></p>
+<p>Average Age: <%= @average_age %></p>
