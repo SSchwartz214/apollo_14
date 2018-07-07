@@ -5,4 +5,8 @@ class Astronaut < ApplicationRecord
   def self.average_age
     average(:age)
   end
+
+  def alpha_order
+    space_missions.order(:title)
+  end
 end

@@ -8,8 +8,8 @@ describe 'user sees all astronauts' do
 
       visit astronauts_path
 
-      expect(page).to have_content(astronaut_1.name)
-      expect(page).to have_content(astronaut_2.name)
+      expect(page).to have_content("Name: #{astronaut_1.name}")
+      expect(page).to have_content("Name: #{astronaut_2.name}")
     end
   end
 end
