@@ -1,11 +1,4 @@
 require 'rails_helper'
-# As a visitor,
-# When I visit '/astronauts'
-# I see a list of astronauts with the following info:
-#  - Name
-#  - Age
-#  - Job
-#  (e.g. "Name: Neil Armstrong" Age: 37 Job: Commander")
 
 describe 'user sees all astronauts' do
   describe 'they visit /astronauts' do
